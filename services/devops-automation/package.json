@@ -5,7 +5,7 @@
   "main": "server.mjs",
   "type": "module",
   "scripts": {
-    "start": "node server.mjs",
+    "start": "node init && node server.mjs",
     "test": "node --test server.test.mjs"
   },
   "dependencies": {},
